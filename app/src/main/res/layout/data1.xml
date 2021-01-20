@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+
+
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="SOP OF Kitchen"
+        android:textColor="#E91E63"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="60dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginRight="20sp"
+                android:text="Human Detection"
+                android:textColor="#0B0B0B"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/face"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="unknown person"
+                android:textColor="#0B0B0B"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="SOP"
+                android:textColor="#0B0B0B"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/sop"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_margin="10dp"
+                android:hint="sop are not followd"
+                android:textColor="#0B0B0B"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Rat"
+                android:textColor="#0B0B0B"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/rat"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_margin="10dp"
+                android:hint="Detected"
+                android:textColor="#0B0B0B"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
