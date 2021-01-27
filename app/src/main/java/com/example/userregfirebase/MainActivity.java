@@ -54,6 +54,9 @@ TextView t3;
         t2=findViewById(R.id.textView3);
         t2.setOnClickListener(this::onClick);
 
+        t3=findViewById(R.id.textView5);
+        t3.setOnClickListener(this::onClick);
+
 
     }
 
@@ -73,6 +76,12 @@ TextView t3;
                 OpenActivity3();
                 break;
 
+            case R.id.textView5:
+                OpenActivity4 ();
+                break;
+
+
+
         } }
 
 
@@ -90,6 +99,9 @@ TextView t3;
         Intent A = new Intent(this, TemperaturAndHumidity.class);
         startActivity(A); }
 
+    public void OpenActivity4() {
+        Intent A = new Intent(this, userchoice.class);
+        startActivity(A); }
 
 
 

@@ -23,7 +23,8 @@
     <color name="startcolorgradient">#443C20</color>
     <color name="endcolorgradient">#E67D16</color>
     <color name="tintlogocolor">#AC7A4A</color>
-    <color name="goooglecolor" >#C3463B</color>
+    <color name="goooglecolor" >#FF5722</color>
     <color name="main_btn">#C9CA40E4</color>
+    <color name="fbcolor">#3c62ac</color>
 
 </resources>
